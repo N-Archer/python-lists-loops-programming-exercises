@@ -5,3 +5,12 @@ my_list = [3344,34334,454543,342534,4563456,3445,23455,234,262,2335,
 35,243,371,3251,351223,13231243,734,856,56,53,234342,56,545343]
 
 #Your code here:
+
+def min_int(a_list):
+    least = 100000000000000
+    for i in a_list:
+        if i < least:
+            least = i
+    return least   
+
+print(min_int(my_list))
