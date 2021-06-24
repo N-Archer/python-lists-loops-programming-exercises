@@ -10,3 +10,7 @@ all_colors = [
 
 #Your code go here:
 
+
+print(list(map(lambda color: "<li>" + color["label"] + "</li>", list(filter(lambda color: color['sexy'], all_colors)))))
+
+

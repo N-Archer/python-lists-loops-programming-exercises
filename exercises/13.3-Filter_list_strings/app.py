@@ -7,3 +7,8 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+
+def search_am(my_list, my_string):
+    return list(filter(lambda name: my_string in name.lower(), my_list))
+
+print(search_am(names, 'am'))

@@ -11,5 +11,9 @@ tasks = [
 ]
 
 
+
+
 #Your code go here:
+
+print(list(filter(lambda task: task["done"] == True, tasks)))
 
